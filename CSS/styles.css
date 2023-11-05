@@ -1,0 +1,261 @@
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+  body {
+    background-color:
+  }
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.spaceflight > h2::after {
+  content: '\1F680';
+}
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+a:hover {
+    text-decoration: underline;
+}
+@keyframes rainbow-text {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
+
+h2 {
+    animation: rainbow-text 5s infinite;
+}
+.background {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+
+h2, p {
+    margin-left: 70px;
+}
+h1 {
+    margin-left: 135px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px double black;
+    border-width: 4px;
+    margin-left: 120px;
+    margin-right: 120px;
+    box-shadow: 5px 0 12px 0;
+}
+.small-image {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.large-image {
+    width: 600px;
+    height: auto;
+    margin-top: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end; /* Выравнивание по правому краю */
+    padding-right: 150px;
+}
+.container {
+    position: relative;
+}
+.button {
+    margin-left: 10px;
+}
+.search {
+
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+/* Ваши пользовательские стили */
+.navbar-dark {
+    background-color: #333; /* Цвет фона (темно-серый) */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff; /* Цвет иконки бургера (белый) */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Цвет текста пунктов меню (белый) */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #007BFF; /* Цвет текста пунктов меню при наведении (синий) */
+}
+.carousel-inner{
+    width: 200px;
+}
+.card-img-top{
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    align-self: center;
+}
+.logoo{
+    width: 120px;
+    height: auto;
+    top: 5px;
+    left: 10px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикали */
+}
+
+.logo-container {
+    margin-right: 20px;
+}
+
+.logo {
+    width: 110px;
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+.col {
+margin-left: 0px;
+}
+
+.containerr{
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    position: relative;
+}
+        .task-container {
+            max-width: 400px;
+            margin: auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .task-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .task-list-item {
+            margin-bottom: 10px;
+        }
+    .countdown-timer {
+        height: 30px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .countdown-timer-bar {
+        height: 100%;
+        width: 100%;
+        background-color: #00b4db;
+        border-radius: 5px;
+        transition: width 1s ease-in-out;
+    }
+    .night-mode {
+    background-color: #1a1a1a;
+    color: #fff;}
+.night-mode .task-container {
+    background-color: #1a1a1a;
+}
+.title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 30px; /* Увеличьте размер шрифта */
+    font-weight: bold; /* Сделайте текст жирным */
+    margin-left: 125px; /* Сдвиньте текст немного вправо */
+    color: #3366cc; /* Измените цвет текста */
+    /* Добавьте другие желаемые стили */
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sport-box {
+    width: 150px;
+    height: 150px;
+    background-color: #32a852;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    cursor: move;
+    margin: 0 20px;
+}
+.fact-box {
+    width: 150px;
+    height: 150px;
+    background-color: #f03c3c;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    margin: 0 20px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Спорт Магазин</title>
+</head>
+<body>
+<div class="container-fluid">
+            <!-- Навигация Bootstrap -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container border-0">
+                    <span class="navbar-brand">Спортивный Магазин</span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="mensDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Мужчины
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="mensDropdown">
+                                <a class="dropdown-item" href="#">Обувь</a>
+                                <a class="dropdown-item" href="#">Топы и Футболки</a>
+                                <a class="dropdown-item" href="#">Шоты</a>
+                                <a class="dropdown-item" href="#">Штаны</a>
+                                <a class="dropdown-item" href="#">Носки</a>
+                                <a class="dropdown-item" href="#">Толстовки и кофты</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="womensDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Женщины
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="womensDropdown">
+                                <a class="dropdown-item" href="#">Обувь</a>
+                                <a class="dropdown-item" href="#">Топы и Футболки</a>
+                                <a class="dropdown-item" href="#">Шоты</a>
+                                <a class="dropdown-item" href="#">Штаны</a>
+                                <a class="dropdown-item" href="#">Носки</a>
+                                <a class="dropdown-item" href="#">Толстовки и кофты</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="kidsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Дети
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="kidsDropdown">
+                                <a class="dropdown-item" href="#">Обувь</a>
+                                <a class="dropdown-item" href="#">Топы и Футболки</a>
+                                <a class="dropdown-item" href="#">Шоты</a>
+                                <a class="dropdown-item" href="#">Штаны</a>
+                                <a class="dropdown-item" href="#">Носки</a>
+                                <a class="dropdown-item" href="#">Толстовки и кофты</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="acsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Аксессуары
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="acsDropdown">
+                                <a class="dropdown-item" href="#">Браслеты</a>
+                                <a class="dropdown-item" href="#">Сумки и рюкзаки</a>
+                                <a class="dropdown-item" href="#">Головные уборы</a>
+                                <a class="dropdown-item" href="#">Бутылки с водой</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="container border-0">
+                        <div class="input-group">
+                            <input type="text" id="search-input" class="form-control" placeholder="Введите текст...">
+                            <button class="btn btn-primary search-button">Найти</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="logo.jpg" alt="Ваш Логотип" class="logoo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <h1 class="display-4">Вход</h1>
+        <form action="login.php" method="POST">
+            <div class="mb-3">
+                <label for="username" class="form-label">Имя пользователя:</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Пароль:</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <button type="button" onclick="window.location.href='index.html'" class="btn btn-primary">Войти</button>
+        </form>
+    </div>
+</body>
+</html>
